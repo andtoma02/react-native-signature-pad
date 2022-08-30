@@ -1,5 +1,5 @@
 {
-  "name": "react-native-signature-pad",
+  "name": "react-native-signature-pad-no-proptypes",
   "version": "0.1.0",
   "description": "React Native wrapper around szimek's Canvas based Signature Pad",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DispatcherInc/react-native-signature-pad.git"
+    "url": "git+https://github.com/andtoma02/react-native-signature-pad-no-proptypes.git"
   },
   "keywords": [
     "react-native",
@@ -20,12 +20,12 @@
     "signaturepad",
     "canvas"
   ],
-  "author": "Kevin Stumpf",
+  "author": "Andrea Tomatis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DispatcherInc/react-native-signature-pad/issues"
+    "url": "https://github.com/andtoma02/react-native-signature-pad-no-proptypes/issues"
   },
-  "homepage": "https://github.com/DispatcherInc/react-native-signature-pad#readme",
+  "homepage": "https://github.com/andtoma02/react-native-signature-pad-no-proptypes#readme",
   "peerDependencies": {
     "react": "^16.8.4",
     "react-native": "^0.58.6",
