@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import PropTypes from 'deprecated-react-native-prop-types';
-import { StyleSheet, View, ViewPropTypes } from 'react-native';
+import { StyleSheet } from 'react-native';
 import { WebView } from 'react-native-webview';
 
 
@@ -12,13 +11,6 @@ import injectedExecuteNativeFunction from './injectedJavaScript/executeNativeFun
 
 export default class SignaturePad extends Component {
 
-  static propTypes = {
-    onChange: PropTypes.func,
-    onError: PropTypes.func,
-    style: ViewPropTypes.style,
-    penColor: PropTypes.string,
-    dataURL: PropTypes.string
-  };
 
   static defaultProps = {
     onChange: () => {
